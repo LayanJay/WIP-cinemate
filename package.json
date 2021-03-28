@@ -1,10 +1,11 @@
 {
-  "name": "next-flix",
+  "name": "cinemate",
   "private": true,
   "description": "A simple starter to get up and developing quickly with Gatsby",
   "version": "0.1.0",
   "author": "Layan Jayasinghe <layanjayasinghe2@gmail.com>",
   "dependencies": {
+    "axios": "^0.21.1",
     "gatsby": "^3.1.2",
     "gatsby-plugin-gatsby-cloud": "^2.1.0",
     "gatsby-plugin-image": "^1.1.2",

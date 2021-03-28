@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Next Flix`,
+    title: `Cinemate`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `@Layan`,
   },
@@ -20,8 +20,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Next Flix`,
-        short_name: `NextFlix`,
+        name: `Cinemate`,
+        short_name: `Cinemate`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#663399`,
