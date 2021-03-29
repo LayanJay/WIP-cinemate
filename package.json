@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Layan Jayasinghe <layanjayasinghe2@gmail.com>",
   "dependencies": {
+    "@tailwindcss/typography": "^0.4.0",
     "axios": "^0.21.1",
     "gatsby": "^3.1.2",
     "gatsby-plugin-gatsby-cloud": "^2.1.0",
@@ -22,6 +23,7 @@
     "typeface-poppins": "^1.1.13"
   },
   "devDependencies": {
+    "@tailwindcss/jit": "^0.1.17",
     "autoprefixer": "^10.2.5",
     "gatsby-plugin-postcss": "^4.1.0",
     "postcss": "^8.2.8",

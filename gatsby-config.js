@@ -23,8 +23,8 @@ module.exports = {
         name: `Cinemate`,
         short_name: `Cinemate`,
         start_url: `/`,
-        background_color: `#fff`,
-        theme_color: `#663399`,
+        background_color: `#001220`,
+        theme_color: `#4D44DF`,
         display: `minimal-ui`,
         icon: `src/images/favicon.png`, // This path is relative to the root of the site.
       },
