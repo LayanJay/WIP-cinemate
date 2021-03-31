@@ -1,19 +1,19 @@
 import React from "react"
-import request from "../utils/request"
+import { Link } from "gatsby"
 
 export default function Movie({ movie }) {
-  const {
-    original_title,
-    overview,
-    poster_path,
-    release_date,
-    vote_average,
-  } = movie
-  const imagePath = request.fetchImages + poster_path
+  const { original_title, poster_path } = movie
+
+  const imagePath = `https://image.tmdb.org/t/p/w500${poster_path}`
   return (
-    <div>
-      <img className="max-w-xs" src={imagePath} alt={original_title} />
-      <h1>{original_title}</h1>
+    <div className="m-4 bg-transparent rounded-2xl shadow-2xl max-w-[300px]">
+      <Link>
+        <img
+          className="max-w-[300px] rounded-2xl transform hover:scale-105 transition ease-in"
+          src={imagePath}
+          alt={original_title}
+        />
+      </Link>
     </div>
   )
 }

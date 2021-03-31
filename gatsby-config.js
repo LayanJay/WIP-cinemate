@@ -49,17 +49,17 @@ module.exports = {
             // would pull ~8000 pages (probably all movies)
             // Each page contains 20 items
 
-            // endpoints: [
-            //   ['miscUpcomingMovies'],
-            //   ['miscNowPlayingMovies'],
-            //   ['miscPopularMovies', 2],
-            //   ['miscTopRatedMovies', 2],
-            //   ['miscTopRatedTvs', 1],
-            //   ['miscPopularTvs', 1],
-            // ],
+            endpoints: [
+              ['miscNowPlayingMovies', 2],
+              // ['miscUpcomingMovies', 2],
+              // ['miscPopularMovies', 2],
+              // ['miscTopRatedMovies', 2],
+              // ['miscTopRatedTvs', 1],
+              // ['miscPopularTvs', 1],
+            ],
           },
           tv: {
-            activate: true,
+            activate: false,
             // endpoints: [['tvAiringToday'], ['tvOnTheAir', 2]],
           },
         },
@@ -68,7 +68,7 @@ module.exports = {
         // e.g. used in tvAiringToday
         // See all timezones: https://developers.themoviedb.org/3/configuration/get-timezones
 
-        timezone: 'Europe/London',
+        timezone: 'Asia/Kolkata',
 
         // TMDb allows 40 Requests per 10 seconds
         // If you pull a lot of data you could have an error

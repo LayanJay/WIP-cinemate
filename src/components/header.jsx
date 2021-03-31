@@ -9,7 +9,7 @@ export default function Header() {
       <section className="grid grid-rows-1 grid-cols-1 md:grid-cols-2 gap-5 font-primary px-5 py-8">
         <div className="md:col-span-1 md:col-start-1 md:col-end-2 md:row-span-1 row-start-2 row-end-3 flex flex-col justify-center items-center">
           <div className="md:px-8">
-            <h1 className="font-bold md:text-5xl sm:text-4xl text-3xl mb-4 md:text-left text-center">
+            <h1 className="font-bold md:text-5xl sm:text-4xl text-3xl mb-4 md:text-left text-center leading-7">
               Unlimited movies, TV shows, and more.
             </h1>
             <h3 className="font-semibold text-lg md:text-left text-center">
