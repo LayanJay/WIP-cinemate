@@ -1,11 +1,10 @@
 import * as React from "react"
-import Header from "./header"
 
 const Layout = ({ children }) => {
   return (
     <>
-      <div className="bg-[#001220] text-white">
-        <Header />
+      {/* bg-[#001220] */}
+      <div className="bg-[#001220] min-h-screen text-white">
         <main>{children}</main>
       </div>
     </>
