@@ -7,9 +7,10 @@ const SimilarMovie = ({ movie }) => {
   return (
     <div className="p-2">
       <img
-        className="max-w-xs md:w-32 w-36 rounded-2xl shadow-lg transform transition hover:scale-105"
+        className="max-w-xs md:w-36 w-36 rounded-2xl shadow-lg transform transition hover:scale-105"
         src={imagePath}
         alt={title}
+        loading="lazy"
       />
     </div>
   )

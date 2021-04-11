@@ -15,6 +15,7 @@ export default function Movie({ movie }) {
           className="max-w-[300px] rounded-2xl transform hover:scale-105 transition ease-in"
           src={imagePath}
           alt={title}
+          loading="lazy"
         />
       </Link>
     </div>

@@ -24,6 +24,7 @@ export default function Header({ header }) {
               className="lg:w-[450px] md:w-96 w-24"
               src={bgBlob}
               alt="blob"
+              loading="lazy"
             />
           </div>
         </section>
