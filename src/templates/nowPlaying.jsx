@@ -62,10 +62,10 @@ const MovieTemplate = ({ data }) => {
             <PostMovieRating movieID={miscNowPlayingMoviesId} />
 
             <div className="flex flex-wrap">
-              <p className="bg-white text-gray-900 font-medium py-2 px-4 mr-3 mb-3 rounded-3xl shadow-lg">
+              <p className="bg-white text-gray-900 font-medium text-sm py-2 px-4 mr-3 mb-3 rounded-3xl shadow-lg">
                 Vote Average: {vote_average}
               </p>
-              <p className="bg-white text-gray-900 font-medium py-2 px-4 mr-3 mb-3 rounded-3xl shadow-lg">
+              <p className="bg-white text-gray-900 font-medium text-sm py-2 px-4 mr-3 mb-3 rounded-3xl shadow-lg">
                 Vote Count: {vote_count}
               </p>
             </div>

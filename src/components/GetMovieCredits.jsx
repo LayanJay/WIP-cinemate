@@ -21,13 +21,13 @@ const GetMovieCredits = ({ movieID }) => {
 
   console.log(credits)
   return (
-    <section className="w-full bg-gray-900 rounded-2xl shadow-2xl md:p-5 py-5 px-3 mb-5">
-      <h2 className="font-semibold md:text-2xl text-xl py-2 mb-4 border-b-2 border-white md:w-52 w-48">
+    <section className="w-full bg-gray-900 rounded-2xl shadow-2xl md:p-5 py-5 px-2 mb-5">
+      <h2 className="font-semibold md:text-2xl text-xl py-2 mx-2 mb-4 border-b-2 border-white md:w-52 w-48">
         Credits
       </h2>
       <div className="flex flex-wrap md:justify-start justify-evenly">
         {credits.map(credit => (
-          <Credit credit={credit} />
+          <Credit key={credit.id} credit={credit} />
         ))}
       </div>
     </section>
