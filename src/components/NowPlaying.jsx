@@ -39,7 +39,7 @@ const pageQuery = graphql`
     ) {
       nodes {
         id
-        original_title
+        title
         poster_path
       }
     }

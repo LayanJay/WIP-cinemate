@@ -51,7 +51,7 @@ module.exports = {
 
             endpoints: [
               ['miscNowPlayingMovies', 2],
-              // ['miscUpcomingMovies', 2],
+              ['miscUpcomingMovies', 1],
               // ['miscPopularMovies', 2],
               // ['miscTopRatedMovies', 2],
               // ['miscTopRatedTvs', 1],

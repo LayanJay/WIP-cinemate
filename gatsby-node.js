@@ -10,7 +10,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
             nowPlayingMovies: allTmdbMiscNowPlayingMovies(sort: {fields: popularity, order: DESC}) {
               nodes {
                 id
-                original_title
+                title
               }
             }
           }          
@@ -24,7 +24,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     // Create pages for each movie.
     const movieTemplate = path.resolve(`src/templates/nowPlaying.jsx`)
     result.data.nowPlayingMovies.nodes.forEach(node => {
-        const path = `/now-playing/${_.kebabCase(node.original_title)}/`
+        const path = `/${_.kebabCase(node.title)}/`
         createPage({
             path,
             component: movieTemplate,
