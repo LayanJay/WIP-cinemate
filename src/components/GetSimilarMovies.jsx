@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from "react"
-import SimilarMovie from "../components/SimilarMovie"
+import React, { useEffect, useState } from 'react'
+import SimilarMovie from '../components/SimilarMovie'
 
 const GetSimilarMovies = ({ movieID }) => {
   const [simiMovies, setSimiMovies] = useState([])

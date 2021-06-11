@@ -1,6 +1,6 @@
-import React, { useState } from "react"
-import { graphql, useStaticQuery } from "gatsby"
-import Movie from "./Movie"
+import React, { useState } from 'react'
+import { graphql, useStaticQuery } from 'gatsby'
+import Movie from './Movie'
 
 const NowPlaying = () => {
   const [visible, setVisible] = useState(8)

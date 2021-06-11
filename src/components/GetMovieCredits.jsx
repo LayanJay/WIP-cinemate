@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from "react"
-import Credit from "./Credit"
+import React, { useEffect, useState } from 'react'
+import Credit from './Credit'
 
 const GetMovieCredits = ({ movieID }) => {
   const [credits, setCredits] = useState([])

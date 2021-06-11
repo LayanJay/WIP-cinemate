@@ -1,6 +1,6 @@
-import React from "react"
-import { Link } from "gatsby"
-import brand from "../images/brand.svg"
+import React from 'react'
+import { Link } from 'gatsby'
+import brand from '../images/brand.svg'
 
 const Navbar = () => {
   return (

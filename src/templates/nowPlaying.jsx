@@ -1,11 +1,11 @@
-import { graphql, Link } from "gatsby"
-import React from "react"
-import Layout from "../components/layout"
-import Header from "../components/header"
-import SEO from "../components/seo"
-import GetSimilarMovies from "../components/GetSimilarMovies"
-import GetMovieCredits from "../components/GetMovieCredits"
-import PostMovieRating from "../components/PostMovieRating"
+import { graphql, Link } from 'gatsby'
+import React from 'react'
+import Layout from '../components/layout'
+import Header from '../components/header'
+import SEO from '../components/seo'
+import GetSimilarMovies from '../components/GetSimilarMovies'
+import GetMovieCredits from '../components/GetMovieCredits'
+import PostMovieRating from '../components/PostMovieRating'
 
 const MovieTemplate = ({ data }) => {
   const movie = data.movie
@@ -54,8 +54,8 @@ const MovieTemplate = ({ data }) => {
               Release Date: {release_date}
             </p>
             <p className="leading-7 font-normal mb-4">
-              Original Language:{" "}
-              {original_language === "en" ? `English` : `${original_language}`}
+              Original Language:{' '}
+              {original_language === 'en' ? `English` : `${original_language}`}
             </p>
 
             {/* posting movie ratings */}

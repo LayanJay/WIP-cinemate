@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react"
+import React, { useEffect, useState } from 'react'
 
 const PostMovieRating = ({ movieID }) => {
   const [inputVal, setInputVal] = useState(0)
@@ -18,8 +18,8 @@ const PostMovieRating = ({ movieID }) => {
     if (rating) {
       const postRating = async () => {
         const requestOptions = {
-          method: "POST",
-          headers: { "Content-Type": "application/json;charset=utf-8" },
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json;charset=utf-8' },
           body: JSON.stringify({ value: rating }),
         }
         const response = await fetch(
@@ -82,14 +82,14 @@ const PostMovieRating = ({ movieID }) => {
           Rating Submitted
         </div>
       ) : (
-        ""
+        ''
       )}
       {successMsg && successMsg !== true ? (
         <div className="fixed z-40 bottom-6 right-6 bg-red-600 py-6 px-4">
           Failed, try again later
         </div>
       ) : (
-        ""
+        ''
       )}
     </>
   )

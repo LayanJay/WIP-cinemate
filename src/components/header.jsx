@@ -1,6 +1,6 @@
-import * as React from "react"
-import Navbar from "./Navbar"
-import bgBlob from "../images/blob.svg"
+import * as React from 'react'
+import Navbar from './Navbar'
+import bgBlob from '../images/blob.svg'
 
 export default function Header({ header }) {
   return (

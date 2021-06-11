@@ -6,6 +6,6 @@
 
 // You can delete this file if you're not using it
 
-import "typeface-poppins"
+import 'typeface-poppins'
 
-import './src/styles/global.css';
+import './src/styles/global.css'

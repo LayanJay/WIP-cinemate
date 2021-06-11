@@ -1,4 +1,4 @@
-import React from "react"
+import React from 'react'
 
 const Credit = ({ credit }) => {
   const { character, name, known_for_department, profile_path } = credit
