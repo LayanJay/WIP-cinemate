@@ -1,13 +1,11 @@
-import React from 'react'
-
-import Layout from '../components/Layout'
+import Layout from "../components/Layout";
 
 const IndexPage = () => {
   return (
     <Layout>
-      <h1>hello</h1>
+      <h1 className="font-first text-4xl">hello</h1>
     </Layout>
-  )
-}
+  );
+};
 
-export default IndexPage
+export default IndexPage;
