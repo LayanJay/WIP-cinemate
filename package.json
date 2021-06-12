@@ -1,50 +1,25 @@
 {
-  "name": "cinemate",
+  "name": "hulu_2.0",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "An efficient way to search and find upcoming, trending, latest, now-playing movies implemented with nextjs",
   "version": "0.1.0",
   "author": "Layan Jayasinghe <layanjayasinghe2@gmail.com>",
-  "dependencies": {
-    "@tailwindcss/typography": "^0.4.0",
-    "gatsby": "^3.1.2",
-    "gatsby-plugin-gatsby-cloud": "^2.1.0",
-    "gatsby-plugin-manifest": "^3.1.0",
-    "gatsby-plugin-offline": "^4.1.0",
-    "gatsby-plugin-react-helmet": "^4.1.0",
-    "gatsby-source-filesystem": "^3.1.0",
-    "gatsby-source-tmdb": "^1.0.2",
-    "prop-types": "^15.7.2",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-helmet": "^6.1.0",
-    "typeface-poppins": "^1.1.13"
-  },
-  "devDependencies": {
-    "@tailwindcss/jit": "^0.1.17",
-    "autoprefixer": "^10.2.5",
-    "gatsby-plugin-postcss": "^4.1.0",
-    "postcss": "^8.2.8",
-    "prettier": "2.2.1",
-    "tailwindcss": "^2.0.4"
-  },
-  "keywords": [
-    "gatsby"
-  ],
   "license": "0BSD",
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  "dependencies": {
+    "@fontsource/source-sans-pro": "^4.4.5",
+    "@heroicons/react": "^1.0.1",
+    "next": "^10.2.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "postcss": "^8.3.2",
+    "tailwindcss": "^2.1.4"
   }
 }

@@ -1,18 +1,11 @@
-import React from "react"
-
-import Layout from "../components/Layout"
-import SEO from "../components/Seo"
+import Layout from "../components/Layout";
 
 const IndexPage = () => {
   return (
     <Layout>
-      <SEO title="Home" />
-      <Header header />
-      <section className="lg:mx-5 md:mx-3 mx-2">
-        <NowPlaying />
-      </section>
+      <h1 className="font-first text-4xl">hello</h1>
     </Layout>
-  )
-}
+  );
+};
 
-export default IndexPage
+export default IndexPage;
