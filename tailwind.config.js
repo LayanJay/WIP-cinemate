@@ -5,6 +5,10 @@ module.exports = {
     extend: {
       fontFamily: {
         first: ['Source Sans Pro', 'sans-serif'],
+      },
+      colors: {
+        primary: '#1ce783',
+        second: '#040405',
       }
     },
   },
