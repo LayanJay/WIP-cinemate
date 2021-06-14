@@ -16,7 +16,7 @@ const Movie = ({ movie }) => {
 
   const BASE_URL = `https://image.tmdb.org/t/p/original`;
   return (
-    <div className="group my-4">
+    <div className="group my-4 cursor-pointer">
       <div className="overflow-hidden rounded-lg">
         <Image
           className="rounded-lg transition duration-200 ease-in transform sm:hover:scale-105"

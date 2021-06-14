@@ -10,7 +10,7 @@ const BottomNav = () => {
           <h2
             key={key}
             onClick={() => router.push(`/?genre=${key}`)}
-            className="last:pr-24 cursor-pointer transition duration-100 ease-in transform hover:scale-125 hover:text-white active:text-primary font-medium"
+            className="last:pr-24 cursor-pointer transition duration-100 ease-in transform hover:scale-125 hover:text-primary font-medium"
           >
             {title}
           </h2>

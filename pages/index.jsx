@@ -3,7 +3,6 @@ import Results from "../components/Results";
 import request from "../lib/request";
 
 const IndexPage = ({ results }) => {
-  console.log(results);
   return (
     <Layout>
       <Results data={results} />

@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        first: ['Source Sans Pro', 'sans-serif'],
+        first: ['Poppins', 'sans-serif'],
       },
       colors: {
         primary: '#1ce783',
@@ -14,7 +14,7 @@ module.exports = {
   },
   variants: {
     animation: ['group-hover'],
-    textColor: ['active'],
+    textColor: ['active', 'hover'],
     fontWeight: ['group-hover'],
     extend: {},
   },
